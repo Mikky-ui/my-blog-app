@@ -5,9 +5,9 @@ export default function Header() {
   return (
     <header className="app-header">
       <nav>
-        <Link to="/" className="logo">Blog Platform</Link>
+        <Link to="/home" className="logo">Blog Platform</Link>
         <div className="nav-links">
-          <Link to="/">Home</Link>
+          <Link to="/home">Home</Link>
           <Link to="/login">Login</Link>
           <Link to="/register">Register</Link>
         </div>
